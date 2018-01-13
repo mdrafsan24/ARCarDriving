@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Lava.xcodeproj">
+      location = "self:/Users/rafsanchowdhury/Desktop/WorkSpace/Lava/Vehicle.xcodeproj">
    </FileRef>
 </Workspace>

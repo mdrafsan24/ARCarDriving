@@ -13,10 +13,11 @@
 		880A675D1FE60F7900169C18 /* Lava.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 880A675B1FE60F7900169C18 /* Lava.xcdatamodeld */; };
 		880A675F1FE60F7900169C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880A675E1FE60F7900169C18 /* Assets.xcassets */; };
 		880A67621FE60F7900169C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880A67601FE60F7900169C18 /* LaunchScreen.storyboard */; };
+		88DB642D200043B400FF65A5 /* car.scn in Resources */ = {isa = PBXBuildFile; fileRef = 88DB642C200043B400FF65A5 /* car.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		880A67511FE60F7800169C18 /* Lava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lava.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		880A67511FE60F7800169C18 /* Vehicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vehicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		880A67541FE60F7900169C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		880A67561FE60F7900169C18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		880A67591FE60F7900169C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		880A675E1FE60F7900169C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		880A67611FE60F7900169C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		880A67631FE60F7900169C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88DB642C200043B400FF65A5 /* car.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = car.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		880A67481FE60F7800169C18 = {
 			isa = PBXGroup;
 			children = (
-				880A67531FE60F7800169C18 /* Lava */,
+				880A67531FE60F7800169C18 /* Vehicle */,
 				880A67521FE60F7800169C18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +50,12 @@
 		880A67521FE60F7800169C18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				880A67511FE60F7800169C18 /* Lava.app */,
+				880A67511FE60F7800169C18 /* Vehicle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		880A67531FE60F7800169C18 /* Lava */ = {
+		880A67531FE60F7800169C18 /* Vehicle */ = {
 			isa = PBXGroup;
 			children = (
 				880A67541FE60F7900169C18 /* AppDelegate.swift */,
@@ -63,16 +65,17 @@
 				880A67601FE60F7900169C18 /* LaunchScreen.storyboard */,
 				880A67631FE60F7900169C18 /* Info.plist */,
 				880A675B1FE60F7900169C18 /* Lava.xcdatamodeld */,
+				88DB642C200043B400FF65A5 /* car.scn */,
 			);
-			path = Lava;
+			path = Vehicle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		880A67501FE60F7800169C18 /* Lava */ = {
+		880A67501FE60F7800169C18 /* Vehicle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 880A67661FE60F7900169C18 /* Build configuration list for PBXNativeTarget "Lava" */;
+			buildConfigurationList = 880A67661FE60F7900169C18 /* Build configuration list for PBXNativeTarget "Vehicle" */;
 			buildPhases = (
 				880A674D1FE60F7800169C18 /* Sources */,
 				880A674E1FE60F7800169C18 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = Lava;
+			name = Vehicle;
 			productName = Lava;
-			productReference = 880A67511FE60F7800169C18 /* Lava.app */;
+			productReference = 880A67511FE60F7800169C18 /* Vehicle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 880A674C1FE60F7800169C18 /* Build configuration list for PBXProject "Lava" */;
+			buildConfigurationList = 880A674C1FE60F7800169C18 /* Build configuration list for PBXProject "Vehicle" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				880A67501FE60F7800169C18 /* Lava */,
+				880A67501FE60F7800169C18 /* Vehicle */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88DB642D200043B400FF65A5 /* car.scn in Resources */,
 				880A67621FE60F7900169C18 /* LaunchScreen.storyboard in Resources */,
 				880A675F1FE60F7900169C18 /* Assets.xcassets in Resources */,
 				880A675A1FE60F7900169C18 /* Main.storyboard in Resources */,
@@ -280,7 +284,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C85HD75Z6W;
-				INFOPLIST_FILE = Lava/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Vehicle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appimas24.Lava;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,7 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C85HD75Z6W;
-				INFOPLIST_FILE = Lava/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Vehicle/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appimas24.Lava;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		880A674C1FE60F7800169C18 /* Build configuration list for PBXProject "Lava" */ = {
+		880A674C1FE60F7800169C18 /* Build configuration list for PBXProject "Vehicle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				880A67641FE60F7900169C18 /* Debug */,
@@ -316,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		880A67661FE60F7900169C18 /* Build configuration list for PBXNativeTarget "Lava" */ = {
+		880A67661FE60F7900169C18 /* Build configuration list for PBXNativeTarget "Vehicle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				880A67671FE60F7900169C18 /* Debug */,
